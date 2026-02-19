@@ -104,7 +104,7 @@ const HomePage = ({ onAddToCart }: HomePageProps) => {
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="max-w-full max-h-full object-contain transition-transform duration-700 group-hover:scale-105"
+                      className={`max-w-full max-h-full object-contain transition-transform duration-700 group-hover:scale-105 ${product.sku === "BHOPA-MM-004" ? "scale-110" : ""}`}
                       loading="lazy"
                     />
                   </div>
