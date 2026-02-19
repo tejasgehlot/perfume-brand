@@ -100,11 +100,11 @@ const HomePage = ({ onAddToCart }: HomePageProps) => {
                 transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
               >
                 <Link to={`/product/${slug}`} className="group block hover-lift">
-                  <div className="aspect-[3/4] overflow-hidden bg-card border border-border rounded-sm mb-4">
+                  <div className="aspect-[3/4] overflow-hidden bg-card border border-border rounded-sm mb-4 flex items-center justify-center p-4">
                     <img
                       src={product.image}
                       alt={product.name}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      className="max-w-full max-h-full object-contain transition-transform duration-700 group-hover:scale-105"
                       loading="lazy"
                     />
                   </div>

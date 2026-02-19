@@ -99,8 +99,8 @@ export const products: Product[] = [
   },
   {
     sku: "BHOPA-MM-004",
-    name: "Midnight Mist",
-    tagline: "Ethereal, Cool, Elusive",
+    name: "Whisky Smoke",
+    tagline: "Warm, Bold, Refined",
     price: 195,
     image: bottleMidnightMist,
     collection: "Extrait de Parfum",
