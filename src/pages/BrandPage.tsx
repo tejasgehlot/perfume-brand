@@ -36,7 +36,7 @@ const BrandPage = () => {
             </blockquote>
             <div className="w-12 h-0.5 bg-gold mb-8" />
             <p className="text-muted-foreground leading-relaxed">
-              Born from a desire to bridge the gap between traditional alchemy and modern luxury, BHOPA stands as a testament to olfactory excellence. Every bottle contains a journey, meticulously crafted with rare botanicals.
+              Born from a desire to bridge the gaps between traditional alchemy and modern luxury, BHOPA stands as a testament to olfactory excellence. Every bottle contains a journey, meticulously crafted with rare botanicals.
             </p>
           </motion.div>
         </div>
